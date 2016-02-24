@@ -25,7 +25,7 @@ where `jovyan` is the default user in the pygsti docker image. Once can copy
 local data into the data container via
 
 ```bash
-# You need Docker 1.8 for this to work
+# You need Docker 1.8 or later for this to work
 docker cp foo.txt gst-data:/home/jovyan/work/gst-data/foo.txt
 ```
 
